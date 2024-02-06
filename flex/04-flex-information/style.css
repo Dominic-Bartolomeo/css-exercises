@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +27,20 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.images {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.text {
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+
+/* Self Assement: Took way to long to realize I needed to use more than one div class
+however, I didn't need to make 4 like I did */
